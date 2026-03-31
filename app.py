@@ -13,7 +13,7 @@ def train_model():
 
     score = r2_score(y_test,pred)
 
-    return model,r2_score
+    return model,score
 
 if __name__ == "__main__":
     model,score =train_model()
